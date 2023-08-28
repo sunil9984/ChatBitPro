@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBitPro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="http://localhost:8765/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+</head>
+<body>
+    <!-- top of the chat interface welcomming the people -->
+<nav>
+    <img class="logo" src="/logo.png" alt="" class="src">
+    <h1>Welcome to ChatBitPro App</h1>
+</nav>
+<!-- container is populated by dynamic javascript code -->
+<div class="container">
+        <div class="message right">
+            Currently No one is availbale to chat.
+        </div>
+</div>
+<!-- send operation performed by using the html forms and it action properties -->
+<div class="send">
+    <form action="#" id="send-container">
+        <input type="text" name="messageInp" id="messageInp">
+        <button class="btn" type="submit">send</button>
+    </form>
+</div>
+
+</body>
+</html>
