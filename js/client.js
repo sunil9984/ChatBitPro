@@ -14,7 +14,7 @@ const append = (message,position)=>{
     messageContainer.append(messageElement);
     
 }
-// if the form is submitted and let the server know first and then broadcast the other
+// if the form is submitted and let the server know first and then broadcast the other then we have to add an event listener to append the msg
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
     const essage = messageInput.value;
